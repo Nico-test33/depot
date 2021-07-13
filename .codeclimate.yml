@@ -48,11 +48,6 @@ plugins:
     channel: beta
     exclude_patterns:
       - 'spec/'
-  # rubocop:
-  #   enabled: true
-  #   channel: rubocop-0-89
-  #   config:
-  #     file: .rubocop.codeclimate.yml
   duplication:
     enabled: true
     exclude_patterns:
