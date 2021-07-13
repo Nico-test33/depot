@@ -1,17 +1,4 @@
 version: "2"
-# plugins:
-#   duplication:
-#     enabled: false
-#     exclude_patterns:
-#       - "public/"
-#   structure:
-#     enabled: false
-#   reek:
-#     enabled: true
-#     channel: "beta"
-#   reek-test:
-#     enabled: false
-
 checks:
   argument-count:
     enabled: true
