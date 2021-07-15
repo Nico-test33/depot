@@ -1,4 +1,5 @@
 version: "2"
+
 checks:
   argument-count:
     enabled: true
@@ -9,7 +10,7 @@ checks:
   method-complexity:
     enabled: true
   method-count:
-    enabled: false # rubocop checks this
+    enabled: false 
   method-lines:
     enabled: false # rubocop checks this
   nested-control-flow:
